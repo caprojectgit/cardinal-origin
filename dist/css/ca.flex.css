@@ -1,0 +1,1134 @@
+* {
+  font-family: Helvetica;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ededed;
+}
+
+/* Dev Styles */
+#container {
+  padding: 10px 0;
+  background: #FFFFFF;
+  max-width: 1240px;
+  margin: 20px auto;
+}
+
+.dev {
+  background: #f26518;
+}
+
+.dev2 {
+  background: #4bff97;
+}
+
+.dev3 {
+  background: #4bc2ff;
+}
+
+p {
+  font-size: 14px;
+  padding: 5px;
+}
+
+h1.acura {
+  color: #e82c2a;
+}
+
+h2.acura {
+  color: #e82c2a;
+}
+
+h3.acura {
+  color: #e82c2a;
+}
+
+h4.acura {
+  color: #e82c2a;
+}
+
+h5.acura {
+  color: #e82c2a;
+}
+
+p.acura {
+  color: #e82c2a;
+}
+
+span.acura {
+  color: #e82c2a;
+}
+
+li.acura {
+  color: #e82c2a;
+}
+
+a.acura {
+  color: #e82c2a;
+}
+
+div.acura {
+  background: #e82c2a;
+}
+
+h1.audi {
+  color: #cd1f35;
+}
+
+h2.audi {
+  color: #cd1f35;
+}
+
+h3.audi {
+  color: #cd1f35;
+}
+
+h4.audi {
+  color: #cd1f35;
+}
+
+h5.audi {
+  color: #cd1f35;
+}
+
+p.audi {
+  color: #cd1f35;
+}
+
+span.audi {
+  color: #cd1f35;
+}
+
+li.audi {
+  color: #cd1f35;
+}
+
+a.audi {
+  color: #cd1f35;
+}
+
+div.audi {
+  background: #cd1f35;
+}
+
+h1.buick {
+  color: #f26518;
+}
+
+h2.buick {
+  color: #f26518;
+}
+
+h3.buick {
+  color: #f26518;
+}
+
+h4.buick {
+  color: #f26518;
+}
+
+h5.buick {
+  color: #f26518;
+}
+
+p.buick {
+  color: #f26518;
+}
+
+span.buick {
+  color: #f26518;
+}
+
+li.buick {
+  color: #f26518;
+}
+
+a.buick {
+  color: #f26518;
+}
+
+div.buick {
+  background: #f26518;
+}
+
+h1.bmw {
+  color: #1c69d4;
+}
+
+h2.bmw {
+  color: #1c69d4;
+}
+
+h3.bmw {
+  color: #1c69d4;
+}
+
+h4.bmw {
+  color: #1c69d4;
+}
+
+h5.bmw {
+  color: #1c69d4;
+}
+
+p.bmw {
+  color: #1c69d4;
+}
+
+span.bmw {
+  color: #1c69d4;
+}
+
+li.bmw {
+  color: #1c69d4;
+}
+
+a.bmw {
+  color: #1c69d4;
+}
+
+div.bmw {
+  background: #1c69d4;
+}
+
+h1.cadillac {
+  color: #9e1834;
+}
+
+h2.cadillac {
+  color: #9e1834;
+}
+
+h3.cadillac {
+  color: #9e1834;
+}
+
+h4.cadillac {
+  color: #9e1834;
+}
+
+h5.cadillac {
+  color: #9e1834;
+}
+
+p.cadillac {
+  color: #9e1834;
+}
+
+span.cadillac {
+  color: #9e1834;
+}
+
+li.cadillac {
+  color: #9e1834;
+}
+
+a.cadillac {
+  color: #9e1834;
+}
+
+div.cadillac {
+  background: #9e1834;
+}
+
+h1.chevy {
+  color: #f1b923;
+}
+
+h2.chevy {
+  color: #f1b923;
+}
+
+h3.chevy {
+  color: #f1b923;
+}
+
+h4.chevy {
+  color: #f1b923;
+}
+
+h5.chevy {
+  color: #f1b923;
+}
+
+p.chevy {
+  color: #f1b923;
+}
+
+span.chevy {
+  color: #f1b923;
+}
+
+li.chevy {
+  color: #f1b923;
+}
+
+a.chevy {
+  color: #f1b923;
+}
+
+div.chevy {
+  background: #f1b923;
+}
+
+h1.fiat {
+  color: #b11636;
+}
+
+h2.fiat {
+  color: #b11636;
+}
+
+h3.fiat {
+  color: #b11636;
+}
+
+h4.fiat {
+  color: #b11636;
+}
+
+h5.fiat {
+  color: #b11636;
+}
+
+p.fiat {
+  color: #b11636;
+}
+
+span.fiat {
+  color: #b11636;
+}
+
+li.fiat {
+  color: #b11636;
+}
+
+a.fiat {
+  color: #b11636;
+}
+
+div.fiat {
+  background: #b11636;
+}
+
+h1.ford {
+  color: #2D96CD;
+}
+
+h2.ford {
+  color: #2D96CD;
+}
+
+h3.ford {
+  color: #2D96CD;
+}
+
+h4.ford {
+  color: #2D96CD;
+}
+
+h5.ford {
+  color: #2D96CD;
+}
+
+p.ford {
+  color: #2D96CD;
+}
+
+span.ford {
+  color: #2D96CD;
+}
+
+li.ford {
+  color: #2D96CD;
+}
+
+a.ford {
+  color: #2D96CD;
+}
+
+div.ford {
+  background: #2D96CD;
+}
+
+h1.gmc {
+  color: #BC0A0F;
+}
+
+h2.gmc {
+  color: #BC0A0F;
+}
+
+h3.gmc {
+  color: #BC0A0F;
+}
+
+h4.gmc {
+  color: #BC0A0F;
+}
+
+h5.gmc {
+  color: #BC0A0F;
+}
+
+p.gmc {
+  color: #BC0A0F;
+}
+
+span.gmc {
+  color: #BC0A0F;
+}
+
+li.gmc {
+  color: #BC0A0F;
+}
+
+a.gmc {
+  color: #BC0A0F;
+}
+
+div.gmc {
+  background: #BC0A0F;
+}
+
+h1.honda {
+  color: #2086c1;
+}
+
+h2.honda {
+  color: #2086c1;
+}
+
+h3.honda {
+  color: #2086c1;
+}
+
+h4.honda {
+  color: #2086c1;
+}
+
+h5.honda {
+  color: #2086c1;
+}
+
+p.honda {
+  color: #2086c1;
+}
+
+span.honda {
+  color: #2086c1;
+}
+
+li.honda {
+  color: #2086c1;
+}
+
+a.honda {
+  color: #2086c1;
+}
+
+div.honda {
+  background: #2086c1;
+}
+
+h1.hyundai {
+  color: #002D73;
+}
+
+h2.hyundai {
+  color: #002D73;
+}
+
+h3.hyundai {
+  color: #002D73;
+}
+
+h4.hyundai {
+  color: #002D73;
+}
+
+h5.hyundai {
+  color: #002D73;
+}
+
+p.hyundai {
+  color: #002D73;
+}
+
+span.hyundai {
+  color: #002D73;
+}
+
+li.hyundai {
+  color: #002D73;
+}
+
+a.hyundai {
+  color: #002D73;
+}
+
+div.hyundai {
+  background: #002D73;
+}
+
+h1.infiniti {
+  color: #201d26;
+}
+
+h2.infiniti {
+  color: #201d26;
+}
+
+h3.infiniti {
+  color: #201d26;
+}
+
+h4.infiniti {
+  color: #201d26;
+}
+
+h5.infiniti {
+  color: #201d26;
+}
+
+p.infiniti {
+  color: #201d26;
+}
+
+span.infiniti {
+  color: #201d26;
+}
+
+li.infiniti {
+  color: #201d26;
+}
+
+a.infiniti {
+  color: #201d26;
+}
+
+div.infiniti {
+  background: #201d26;
+}
+
+h1.kia {
+  color: #c4172c;
+}
+
+h2.kia {
+  color: #c4172c;
+}
+
+h3.kia {
+  color: #c4172c;
+}
+
+h4.kia {
+  color: #c4172c;
+}
+
+h5.kia {
+  color: #c4172c;
+}
+
+p.kia {
+  color: #c4172c;
+}
+
+span.kia {
+  color: #c4172c;
+}
+
+li.kia {
+  color: #c4172c;
+}
+
+a.kia {
+  color: #c4172c;
+}
+
+div.kia {
+  background: #c4172c;
+}
+
+h1.lexus {
+  color: #1a1a1a;
+}
+
+h2.lexus {
+  color: #1a1a1a;
+}
+
+h3.lexus {
+  color: #1a1a1a;
+}
+
+h4.lexus {
+  color: #1a1a1a;
+}
+
+h5.lexus {
+  color: #1a1a1a;
+}
+
+p.lexus {
+  color: #1a1a1a;
+}
+
+span.lexus {
+  color: #1a1a1a;
+}
+
+li.lexus {
+  color: #1a1a1a;
+}
+
+a.lexus {
+  color: #1a1a1a;
+}
+
+div.lexus {
+  background: #1a1a1a;
+}
+
+h1.lincoln {
+  color: #231F1F;
+}
+
+h2.lincoln {
+  color: #231F1F;
+}
+
+h3.lincoln {
+  color: #231F1F;
+}
+
+h4.lincoln {
+  color: #231F1F;
+}
+
+h5.lincoln {
+  color: #231F1F;
+}
+
+p.lincoln {
+  color: #231F1F;
+}
+
+span.lincoln {
+  color: #231F1F;
+}
+
+li.lincoln {
+  color: #231F1F;
+}
+
+a.lincoln {
+  color: #231F1F;
+}
+
+div.lincoln {
+  background: #231F1F;
+}
+
+h1.maserati {
+  color: #0b2749;
+}
+
+h2.maserati {
+  color: #0b2749;
+}
+
+h3.maserati {
+  color: #0b2749;
+}
+
+h4.maserati {
+  color: #0b2749;
+}
+
+h5.maserati {
+  color: #0b2749;
+}
+
+p.maserati {
+  color: #0b2749;
+}
+
+span.maserati {
+  color: #0b2749;
+}
+
+li.maserati {
+  color: #0b2749;
+}
+
+a.maserati {
+  color: #0b2749;
+}
+
+div.maserati {
+  background: #0b2749;
+}
+
+h1.mazda {
+  color: #df0000;
+}
+
+h2.mazda {
+  color: #df0000;
+}
+
+h3.mazda {
+  color: #df0000;
+}
+
+h4.mazda {
+  color: #df0000;
+}
+
+h5.mazda {
+  color: #df0000;
+}
+
+p.mazda {
+  color: #df0000;
+}
+
+span.mazda {
+  color: #df0000;
+}
+
+li.mazda {
+  color: #df0000;
+}
+
+a.mazda {
+  color: #df0000;
+}
+
+div.mazda {
+  background: #df0000;
+}
+
+h1.mini {
+  color: #ac2430;
+}
+
+h2.mini {
+  color: #ac2430;
+}
+
+h3.mini {
+  color: #ac2430;
+}
+
+h4.mini {
+  color: #ac2430;
+}
+
+h5.mini {
+  color: #ac2430;
+}
+
+p.mini {
+  color: #ac2430;
+}
+
+span.mini {
+  color: #ac2430;
+}
+
+li.mini {
+  color: #ac2430;
+}
+
+a.mini {
+  color: #ac2430;
+}
+
+div.mini {
+  background: #ac2430;
+}
+
+h1.mb {
+  color: #222222;
+}
+
+h2.mb {
+  color: #222222;
+}
+
+h3.mb {
+  color: #222222;
+}
+
+h4.mb {
+  color: #222222;
+}
+
+h5.mb {
+  color: #222222;
+}
+
+p.mb {
+  color: #222222;
+}
+
+span.mb {
+  color: #222222;
+}
+
+li.mb {
+  color: #222222;
+}
+
+a.mb {
+  color: #222222;
+}
+
+div.mb {
+  background: #222222;
+}
+
+h1.mitsubishi {
+  color: #ff0022;
+}
+
+h2.mitsubishi {
+  color: #ff0022;
+}
+
+h3.mitsubishi {
+  color: #ff0022;
+}
+
+h4.mitsubishi {
+  color: #ff0022;
+}
+
+h5.mitsubishi {
+  color: #ff0022;
+}
+
+p.mitsubishi {
+  color: #ff0022;
+}
+
+span.mitsubishi {
+  color: #ff0022;
+}
+
+li.mitsubishi {
+  color: #ff0022;
+}
+
+a.mitsubishi {
+  color: #ff0022;
+}
+
+div.mitsubishi {
+  background: #ff0022;
+}
+
+h1.nissan {
+  color: #c3002f;
+}
+
+h2.nissan {
+  color: #c3002f;
+}
+
+h3.nissan {
+  color: #c3002f;
+}
+
+h4.nissan {
+  color: #c3002f;
+}
+
+h5.nissan {
+  color: #c3002f;
+}
+
+p.nissan {
+  color: #c3002f;
+}
+
+span.nissan {
+  color: #c3002f;
+}
+
+li.nissan {
+  color: #c3002f;
+}
+
+a.nissan {
+  color: #c3002f;
+}
+
+div.nissan {
+  background: #c3002f;
+}
+
+h1.subaru {
+  color: #20609F;
+}
+
+h2.subaru {
+  color: #20609F;
+}
+
+h3.subaru {
+  color: #20609F;
+}
+
+h4.subaru {
+  color: #20609F;
+}
+
+h5.subaru {
+  color: #20609F;
+}
+
+p.subaru {
+  color: #20609F;
+}
+
+span.subaru {
+  color: #20609F;
+}
+
+li.subaru {
+  color: #20609F;
+}
+
+a.subaru {
+  color: #20609F;
+}
+
+div.subaru {
+  background: #20609F;
+}
+
+h1.toyota {
+  color: #d71921;
+}
+
+h2.toyota {
+  color: #d71921;
+}
+
+h3.toyota {
+  color: #d71921;
+}
+
+h4.toyota {
+  color: #d71921;
+}
+
+h5.toyota {
+  color: #d71921;
+}
+
+p.toyota {
+  color: #d71921;
+}
+
+span.toyota {
+  color: #d71921;
+}
+
+li.toyota {
+  color: #d71921;
+}
+
+a.toyota {
+  color: #d71921;
+}
+
+div.toyota {
+  background: #d71921;
+}
+
+h1.volvo {
+  color: #003057;
+}
+
+h2.volvo {
+  color: #003057;
+}
+
+h3.volvo {
+  color: #003057;
+}
+
+h4.volvo {
+  color: #003057;
+}
+
+h5.volvo {
+  color: #003057;
+}
+
+p.volvo {
+  color: #003057;
+}
+
+span.volvo {
+  color: #003057;
+}
+
+li.volvo {
+  color: #003057;
+}
+
+a.volvo {
+  color: #003057;
+}
+
+div.volvo {
+  background: #003057;
+}
+
+h1.vw {
+  color: #00B1EB;
+}
+
+h2.vw {
+  color: #00B1EB;
+}
+
+h3.vw {
+  color: #00B1EB;
+}
+
+h4.vw {
+  color: #00B1EB;
+}
+
+h5.vw {
+  color: #00B1EB;
+}
+
+p.vw {
+  color: #00B1EB;
+}
+
+span.vw {
+  color: #00B1EB;
+}
+
+li.vw {
+  color: #00B1EB;
+}
+
+a.vw {
+  color: #00B1EB;
+}
+
+div.vw {
+  background: #00B1EB;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  /*flex: 0 1 auto;
+    flex-wrap: wrap;*/
+}
+
+section.start {
+  justify-content: flex-start;
+}
+
+section.center {
+  justify-content: center;
+}
+
+section.end {
+  justify-content: flex-end;
+}
+
+section.even {
+  justify-content: space-evenly;
+}
+
+section.collapse {
+  margin: 0;
+}
+
+.column {
+  flex-basis: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.column:first-of-type {
+  margin-left: 0;
+}
+
+.column:last-of-type {
+  margin-right: 0;
+}
+
+.column:nth-of-type(even) {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.collapse {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+  }
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: 0 auto;
+}
+
+.btn {
+  color: #FFFFFF;
+  transition: none;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 15px 0;
+  letter-spacing: 1px;
+  flex: 1;
+  font-weight: bold;
+}
+
+.btn-woo {
+  background: #e82c2a;
+  border: 4px solid #e82c2a;
+}
+
+.btn-woo:hover {
+  background: transparent;
+  color: #e82c2a;
+  transition: .7s ease;
+}
