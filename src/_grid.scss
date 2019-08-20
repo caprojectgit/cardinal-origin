@@ -4,6 +4,11 @@ section {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 10px 0;
+    margin-left: -$gutter;
+
+    &.reverse {
+        flex-direction: row-reverse;
+    }
 
     /*flex: 0 1 auto;
     flex-wrap: wrap;*/
@@ -30,7 +35,58 @@ section {
 
 }
 
+
 .column {
+    flex: 1;
+    margin-left: $gutter;
+
+
+    &.half {
+        flex: 0 0 calc(50% - #{$gutter});
+    }
+
+    &.thirds {
+        flex: 0 0 calc(33.3333% - #{$gutter}); 
+    }
+
+    &.fourth {
+        flex: 0 0 25%;
+    }
+
+    &.collapse {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex: 1;
+    }
+
+}
+
+@media (min-width: 48em) {
+    .column {
+    }
+
+
+    .half > .column {
+        flex: 0 0 50%;
+    }
+
+
+    .thirds > .column {
+        flex: 0 0 30%;
+    }
+
+
+}
+
+
+
+
+/*.column {
     flex-basis: 100%;
     margin-left: 10px;
     margin-right: 10px;
@@ -50,6 +106,10 @@ section {
 }
 
 
+.grow--3-4 {
+    flex-basis: 75%;
+}
+
 
 
 .collapse {
@@ -66,12 +126,15 @@ section {
 @media screen and (min-width: 800px) {
   .column {
     flex: 1;
- 
-
-
-
-
-
-
     }
-}
+
+
+    .grow--3-4 {
+        flex-basis: 75%;
+    }
+
+    .grow--1-4 {
+        flex-basis: 25%;
+    }
+
+} */

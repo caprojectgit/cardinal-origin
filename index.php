@@ -32,19 +32,14 @@
     <!-- containter -->
     <div id="container">
 
+
+
         <!-- "row" -->
         <section>
-            <div class="column bmw">
-                <p class="text-left">Column</p>
+            <div class="column dev">
+                <p>Column</p>
             </div>
 
-            <div class="column bmw">
-                <p class="text-center">Column</p>
-            </div>
-
-            <div class="column bmw">
-                <p class="text-right">Column</p>
-            </div>
 
 
         </section>
@@ -52,9 +47,34 @@
 
         <!-- "row" -->
         <section>
-            <div class="column">
-                <a href="#" class="btn">Click Me</a>
+            <div class="column half dev">
+                <p>Column</p>
             </div>
+
+            <div class="column half dev">
+                <p>Column</p>
+            </div>
+
+
+
+        </section>
+        <!-- "row" -->
+
+
+        <!-- "row" -->
+        <section>
+            <div class="column thirds dev">
+                <p>Column</p>
+            </div>
+
+            <div class="column thirds dev">
+                <p>Column</p>
+            </div>
+
+            <div class="column thirds dev">
+                <p>Column</p>
+            </div>
+
 
         </section>
         <!-- "row" -->
