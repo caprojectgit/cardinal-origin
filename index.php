@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CSS Grid: Flex</title>
     <!--<link rel="stylesheet" href="dist/css/ca.flex.min.css">-->
-    <link rel="stylesheet" href="dist/css/css.grid.css">
+    <link rel="stylesheet" href="dist/css/cardinal.css">
     <!--    <link rel="stylesheet" href="dist/css/display.css">-->
 
 
