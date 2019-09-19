@@ -92,6 +92,7 @@ section.collapse {
 
 @media (max-width: 600px) {
   .column {
+<<<<<<< HEAD
     flex: 0 0 100%;
   }
   .half > .column {
@@ -99,6 +100,9 @@ section.collapse {
   }
   .thirds > .column {
     flex: 0 0 100%;
+=======
+    flex: 1;
+>>>>>>> master
   }
 }
 

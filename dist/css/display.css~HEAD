@@ -1,0 +1,20 @@
+body {
+  position: relative;
+}
+
+.nav {
+  position: fixed;
+  left: 40px;
+  top: 10px;
+  background: #FFFFFF;
+  width: 200px;
+}
+
+.nav ul {
+  padding: 0 0 0 20px;
+  list-style: none;
+}
+
+.nav ul li {
+  padding: 5px 0;
+}

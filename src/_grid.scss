@@ -6,6 +6,15 @@ section {
     margin: 10px 0;
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
+=======
+    margin: 10px 0;
+    margin-left: -$gutter;
+
+    &.reverse {
+        flex-direction: row-reverse;
+    }
+>>>>>>> master
 
     &:first-of-type {
         margin-top: 0;
@@ -41,8 +50,69 @@ section {
         justify-content: space-around;
     }
 
+<<<<<<< HEAD
     &.align-start {
         align-items: flex-start;
+=======
+
+.column {
+    flex: 1;
+    margin-left: $gutter;
+
+
+    &.half {
+        flex: 0 0 calc(50% - #{$gutter});
+    }
+
+    &.thirds {
+        flex: 0 0 calc(33.3333% - #{$gutter}); 
+    }
+
+    &.fourth {
+        flex: 0 0 25%;
+    }
+
+    &.collapse {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .column {
+        flex: 1;
+    }
+
+}
+
+@media (min-width: 48em) {
+    .column {
+    }
+
+
+    .half > .column {
+        flex: 0 0 50%;
+    }
+
+
+    .thirds > .column {
+        flex: 0 0 30%;
+    }
+
+
+}
+
+
+
+
+/*.column {
+    flex-basis: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+    &:first-of-type {
+        margin-left: 0;
+>>>>>>> master
     }
 
     &.align-center {
@@ -57,9 +127,16 @@ section {
         align-items: basline;
     }
 
+<<<<<<< HEAD
     &.align-stretch {
         align-items: stretch;
     }
+=======
+.grow--3-4 {
+    flex-basis: 75%;
+}
+
+>>>>>>> master
 
 
     // column 100%
@@ -90,6 +167,7 @@ section {
             margin-left: 0;
         }
 
+<<<<<<< HEAD
         &:last-of-type {
             margin-right: 0;
         }*/
@@ -113,17 +191,32 @@ section {
         &.first {
             order: 1;
         }
+=======
+@media screen and (min-width: 800px) {
+  .column {
+    flex: 1;
+    }
+>>>>>>> master
 
         &.second {
             order: 2;
         }
 
+<<<<<<< HEAD
         &.third {
             order: 3;
         }
+=======
+    .grow--3-4 {
+        flex-basis: 75%;
+    }
+>>>>>>> master
 
+    .grow--1-4 {
+        flex-basis: 25%;
     }
 
+<<<<<<< HEAD
 
 
 }
@@ -139,3 +232,6 @@ section {
     color: $white;
     background: $grey-700;
 }
+=======
+} */
+>>>>>>> master

@@ -1,14 +1,35 @@
 body {
+<<<<<<< HEAD
     margin: 0;
     padding: 0;
+=======
+	background: $grey-400;
+>>>>>>> master
 }
 
+p {
+    font-size: 16px;
+    padding: 10px;
+}
 
 #ca-container {
     width: 100%;
     font-family: Helvetica; 
 }
 
+<<<<<<< HEAD
+=======
+.dev {
+    color: $white;
+    text-align: center;
+	background: $grey-700;
+}
+
+
+.dev2 {
+	background: $dev2;
+}
+>>>>>>> master
 
 p {
     padding: 10px;

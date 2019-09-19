@@ -78,6 +78,15 @@
                 <a href="#" class="btn black">Test Button</a>
             </div>
 
+            <div class="column thirds dev">
+                <p>Column</p>
+            </div>
+
+            <div class="column thirds dev">
+                <p>Column</p>
+            </div>
+
+
         </section>
 
 
