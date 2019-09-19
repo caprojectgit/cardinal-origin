@@ -4,11 +4,40 @@
 	text-decoration: none;
 	display: block;
 	text-align: center;
-	padding: 15px 0;
+    padding: 15px 0;
 	letter-spacing: 1px;
 	flex: 1;
-	font-weight: bold;
+    font-family: Helvetica;
+    font-weight: bold;
+
+    @each $manufacturer, $color in $manufacturers {
+        &.#{$manufacturer} {
+            @include buttons($color);
+        }
+    }
+
+    /*&.alert {
+        display: block;
+        @extend %fa-icon;
+        @extend .fas;
+        
+        &:before {
+            padding: 0 10px 0 0;
+            content: fa-content($fa-var-exclamation-triangle)
+        }
+
+        & span {
+            font-family: Helvetica;
+        }
+        
+
+    }*/
+
+
+
+
 }
+
 
 
 .btn-woo {

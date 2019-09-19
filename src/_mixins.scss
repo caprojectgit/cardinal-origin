@@ -10,3 +10,6 @@
 }
 
 
+@mixin background($bg) {
+    background: $bg;
+}
