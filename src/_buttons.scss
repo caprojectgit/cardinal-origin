@@ -16,27 +16,32 @@
         }
     }
 
-    /*&.alert {
-        display: block;
-        @extend %fa-icon;
-        @extend .fas;
-        
-        &:before {
-            padding: 0 10px 0 0;
-            content: fa-content($fa-var-exclamation-triangle)
-        }
 
-        & span {
-            font-family: Helvetica;
-        }
-        
 
-    }*/
+
+
+
 
 
 
 
 }
+
+
+
+@each $manufacturer, $color in $manufacturers {
+        .column[class~=#{$manufacturer}] {
+            @include background($color);
+        }
+    }
+
+@each $manufacturer,
+$color in $manufacturers {
+    .inner[class~=#{$manufacturer}] {
+        @include background($color);
+    }
+}
+
 
 
 

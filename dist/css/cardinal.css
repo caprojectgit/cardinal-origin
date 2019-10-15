@@ -172,22 +172,6 @@ section .column.third {
   flex: 1;
   font-family: Helvetica;
   font-weight: bold;
-  /*&.alert {
-        display: block;
-        @extend %fa-icon;
-        @extend .fas;
-        
-        &:before {
-            padding: 0 10px 0 0;
-            content: fa-content($fa-var-exclamation-triangle)
-        }
-
-        & span {
-            font-family: Helvetica;
-        }
-        
-
-    }*/
 }
 
 .btn.acura {
@@ -487,6 +471,222 @@ section .column.third {
   transition: .7s ease;
 }
 
+.column[class~=acura] {
+  background: #e82c2a;
+}
+
+.column[class~=audi] {
+  background: #cd1f35;
+}
+
+.column[class~=buick] {
+  background: #f26518;
+}
+
+.column[class~=bmw] {
+  background: #1c69d4;
+}
+
+.column[class~=cadillac] {
+  background: #9e1834;
+}
+
+.column[class~=chevy] {
+  background: #f1b923;
+}
+
+.column[class~=fiat] {
+  background: #b11636;
+}
+
+.column[class~=ford] {
+  background: #2D96CD;
+}
+
+.column[class~=gmc] {
+  background: #BC0A0F;
+}
+
+.column[class~=honda] {
+  background: #2086c1;
+}
+
+.column[class~=hyundai] {
+  background: #002D73;
+}
+
+.column[class~=infiniti] {
+  background: #201d26;
+}
+
+.column[class~=kia] {
+  background: #c4172c;
+}
+
+.column[class~=lexus] {
+  background: #1a1a1a;
+}
+
+.column[class~=lincoln] {
+  background: #231F1F;
+}
+
+.column[class~=maserati] {
+  background: #0b2749;
+}
+
+.column[class~=mazda] {
+  background: #df0000;
+}
+
+.column[class~=mini] {
+  background: #ac2430;
+}
+
+.column[class~=mercedes] {
+  background: #222222;
+}
+
+.column[class~=mitsubishi] {
+  background: #ff0022;
+}
+
+.column[class~=nissan] {
+  background: #c3002f;
+}
+
+.column[class~=subaru] {
+  background: #20609F;
+}
+
+.column[class~=toyota] {
+  background: #d71921;
+}
+
+.column[class~=volvo] {
+  background: #003057;
+}
+
+.column[class~=vw] {
+  background: #00B1EB;
+}
+
+.column[class~=black] {
+  background: #000000;
+}
+
+.column[class~=white] {
+  background: #FFFFFF;
+}
+
+.inner[class~=acura] {
+  background: #e82c2a;
+}
+
+.inner[class~=audi] {
+  background: #cd1f35;
+}
+
+.inner[class~=buick] {
+  background: #f26518;
+}
+
+.inner[class~=bmw] {
+  background: #1c69d4;
+}
+
+.inner[class~=cadillac] {
+  background: #9e1834;
+}
+
+.inner[class~=chevy] {
+  background: #f1b923;
+}
+
+.inner[class~=fiat] {
+  background: #b11636;
+}
+
+.inner[class~=ford] {
+  background: #2D96CD;
+}
+
+.inner[class~=gmc] {
+  background: #BC0A0F;
+}
+
+.inner[class~=honda] {
+  background: #2086c1;
+}
+
+.inner[class~=hyundai] {
+  background: #002D73;
+}
+
+.inner[class~=infiniti] {
+  background: #201d26;
+}
+
+.inner[class~=kia] {
+  background: #c4172c;
+}
+
+.inner[class~=lexus] {
+  background: #1a1a1a;
+}
+
+.inner[class~=lincoln] {
+  background: #231F1F;
+}
+
+.inner[class~=maserati] {
+  background: #0b2749;
+}
+
+.inner[class~=mazda] {
+  background: #df0000;
+}
+
+.inner[class~=mini] {
+  background: #ac2430;
+}
+
+.inner[class~=mercedes] {
+  background: #222222;
+}
+
+.inner[class~=mitsubishi] {
+  background: #ff0022;
+}
+
+.inner[class~=nissan] {
+  background: #c3002f;
+}
+
+.inner[class~=subaru] {
+  background: #20609F;
+}
+
+.inner[class~=toyota] {
+  background: #d71921;
+}
+
+.inner[class~=volvo] {
+  background: #003057;
+}
+
+.inner[class~=vw] {
+  background: #00B1EB;
+}
+
+.inner[class~=black] {
+  background: #000000;
+}
+
+.inner[class~=white] {
+  background: #FFFFFF;
+}
+
 .btn-woo {
   background: #e82c2a;
   border: 4px solid #e82c2a;
@@ -496,4 +696,13 @@ section .column.third {
   background: transparent;
   color: #e82c2a;
   transition: .7s ease;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    margin: 0 !important;
+  }
+  section .column {
+    flex: 1 1 100%;
+  }
 }

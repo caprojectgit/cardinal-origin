@@ -17,20 +17,6 @@
     <!-- containter -->
     <div id="ca-container">
 
-        <section>
-            <div class="column   quarter" style="max-width:25%">
-                <div class="acura inner">
-                    Quarter
-                </div>
-            </div>
-            <div class="column  ">
-                <div class="acura inner">
-                    3/4
-                </div>
-            </div>
-        </section>
-
-
 
 
 
@@ -77,27 +63,12 @@
             <div class="column">
                 <a href="#" class="btn black">Test Button</a>
             </div>
-
-            <div class="column thirds dev">
-                <p>Column</p>
-            </div>
-
-            <div class="column thirds dev">
-                <p>Column</p>
-            </div>
-
-
         </section>
 
 
         <section>
             <div class="column">
                 <div class="inner acura">
-                    <p>Column</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="inner buick">
                     <p>Column</p>
                 </div>
             </div>
