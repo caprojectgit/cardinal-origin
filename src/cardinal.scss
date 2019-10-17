@@ -1,6 +1,14 @@
-@import "variables";
-@import "mixins";
-@import "base";
-@import "grid";
-@import "buttons";
-@import "mediaqueries";
+#ca-container {
+    width: 100%;
+    font-family: Helvetica, Arial, sans-serif;
+
+
+    @import "variables";
+    @import "mixins";
+    @import "fonts";
+    @import "base";
+    //@import "grid-test";
+    @import "grid";
+    @import "buttons";
+    @import "mediaqueries";
+}

@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>CSS Grid: Flex</title>
+    <title>Cardinal Grid</title>
     <!--<link rel="stylesheet" href="dist/css/ca.flex.min.css">-->
     <link rel="stylesheet" href="dist/css/cardinal.css">
     <!--    <link rel="stylesheet" href="dist/css/display.css">-->
@@ -52,50 +52,63 @@
                 <a href="#" class="btn bmw alert">Test Button</a>
             </div>
             <div class="column">
-                <a href="#" class="btn bmw">Test Button</a>
+                <a href="#" class="btn black">Test Button</a>
             </div>
             <div class="column">
                 <a href="#" class="btn chevy">Test Button</a>
             </div>
             <div class="column">
-                <a href="#" class="btn black">Test Button</a>
+                <a href="#" class="btn acura">Test Button</a>
             </div>
-            <div class="column">
-                <a href="#" class="btn black">Test Button</a>
-            </div>
+
         </section>
 
 
         <section>
-            <div class="column">
-                <div class="inner acura">
-                    <p>Column</p>
-                </div>
+            <div class="column subaru collapse">
+                <a href="#" class="btn black">Test Button</a>
+                <p>Column</p>
             </div>
-            <div class="column">
-                <div class="inner buick">
-                    <p>Column</p>
-                </div>
+
+            <div class="column acura collapse">
+                <p>Column</p>
             </div>
-            <div class="column">
-                <div class="inner toyota">
-                    <p>Column</p>
-                </div>
+
+            <div class="column subaru collapse">
+                <p>Column</p>
             </div>
-            <div class="column">
-                <div class="inner subaru">
-                    <p>Column</p>
-                </div>
+
+            <div class="column acura collapse">
+                <p>Column</p>
             </div>
 
         </section>
 
+        <!-- "row" -->
+        <section class="align-center two">
+
+            <div class="column">
+                <p>Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+                <p>Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+
+            </div>
+
+            <div class="column">
+                <p>Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+                <p>Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec sed odio dui.</p>
+            </div>
+
+
+
+        </section>
+        <!-- "row" -->
+
+    </div>
 
 
 
 
-
-        <!--<section>
+    <!--<section>
             <div class="column dev">
                 <form>
 
@@ -155,7 +168,6 @@
 
 
 
-    </div>
     <!-- containter -->
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>

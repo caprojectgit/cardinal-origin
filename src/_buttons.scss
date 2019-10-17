@@ -6,7 +6,7 @@
 	text-align: center;
     padding: 15px 0;
 	letter-spacing: 1px;
-	flex: 1;
+    flex: 1;
     font-family: Helvetica;
     font-weight: bold;
 
@@ -37,14 +37,9 @@
 
 @each $manufacturer,
 $color in $manufacturers {
-    .inner[class~=#{$manufacturer}] {
+    .column[class~=#{$manufacturer}] {
         @include background($color);
     }
 }
 
 
-
-
-.btn-woo {
-    @include buttons($acura);
-}

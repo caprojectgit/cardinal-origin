@@ -1,16 +1,10 @@
 body {
-	background: $grey-400;
+    //background: $grey-400;
+    background: $white;
 }
 
-p {
-    font-size: 16px;
-    padding: 10px;
-}
 
-#ca-container {
-    width: 100%;
-    font-family: Helvetica; 
-}
+
 
 .dev {
     color: $white;
@@ -23,10 +17,9 @@ p {
 	background: $dev2;
 }
 
-p {
-    padding: 10px;
-}
 
-.test {
-    background: $dev;
+img {
+    max-width: auto;
+    width: 100%;
+    display: block;
 }
