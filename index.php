@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cardinal Grid</title>
     <!--<link rel="stylesheet" href="dist/css/ca.flex.min.css">-->
-    <link rel="stylesheet" href="dist/css/cardinal.css">
+    <link rel="stylesheet" href="./bundle/dist/css/cardinal.css">
     <!--    <link rel="stylesheet" href="dist/css/display.css">-->
 
 
