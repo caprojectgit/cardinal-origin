@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cardinal Grid</title>
     <link rel="stylesheet" href="./bundle/dist/css/cardinal.css">
-  
+
 
 
 </head>
@@ -15,7 +15,11 @@
     <!-- containter -->
     <div id="ca-container">
 
-
+        <section data-bg="https://www.theautohost.com/_contentPages/vehicleContentPages/toyota/2019/Avalon-Hybrid/images/header.jpg">
+            <div class="column">
+                <h1>Hello</h1>
+            </div>
+        </section>
 
 
         <!-- "row" -->
@@ -63,16 +67,16 @@
 
 
         <section>
-            <div class="column subaru collapse">
+            <div class="column">
                 <a href="#" class="btn black">Test Button</a>
                 <p>Column</p>
             </div>
 
-            <div class="column acura collapse">
+            <div class="column">
                 <p>Column</p>
             </div>
 
-            <div class="column subaru collapse">
+            <div class="column">
                 <p>Column</p>
             </div>
 
@@ -169,7 +173,7 @@
     <!-- containter -->
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-    <!--<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>-->
+    <script src="./bundle/dist/js/cardinal-min.js"></script>
 
 
 
